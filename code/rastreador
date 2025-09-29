@@ -1,0 +1,40 @@
+#include <Servo.h>
+
+#define LDR_1 A0
+#define LDR_2 A1
+
+Servo meuServo; //objeto
+
+int pos = 90; // Posição inicial do servo
+int tolerancia = 10; // tolerância para evitar movimentos constantes
+
+void setup() {
+  pinMode(LDR_1, INPUT);
+  pinMode(LDR_2, INPUT);
+  
+  meuServo.attach(3); 
+  meuServo.write(pos); 
+}
+
+void loop() {
+  int ldr_esq = analogRead(LDR_1);
+  int ldr_dir = analogRead(LDR_2);
+
+  int diferenca = abs(ldr_esq - ldr_dir);//Calcula a diferença absoluta entre as leituras
+  
+  // Verifica se a diferença é maior que a tolerância antes de mover
+  if (diferenca > tolerancia) {
+    if (ldr_esq > ldr_dir) {
+      pos = pos - 1;
+    } else {
+      pos = pos + 1;  
+    }
+    
+    // Garante que o ângulo fique entre 0 e 180
+    pos = constrain(pos, 0, 180);
+    
+    meuServo.write(pos);
+  }
+  
+  delay(50);
+}
