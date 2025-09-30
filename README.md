@@ -1,6 +1,6 @@
 # 🌞 Rastreador Solar com Arduino
 
-Durante a disciplina de **Sistemas e Controle**, desenvolvemos em equipe um projeto de **rastreamento solar utilizando Arduino**.  
+Durante a disciplina de **Sistemas e Controle**, juntamente com meus colegas, desenvolvemos em equipe um projeto de **rastreamento solar utilizando Arduino**.  
 
 A proposta foi criar um sistema em que um **servo motor** se movimenta para a direita ou para a esquerda de acordo com a **variação de luminosidade captada por sensores LDR (Light Dependent Resistor)**.  
 
@@ -23,7 +23,7 @@ O objetivo é **simular o funcionamento de um painel solar inteligente**, que se
 
 ---
 
-## 📚 Conhecimentos Reforçados
+## 📚 Conhecimentos Reforçados e adquirisdos
 - Programação embarcada em **Arduino (C++)**  
 - Leitura de **sensores analógicos**  
 - Controle de **servo motores**  
