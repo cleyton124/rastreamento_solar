@@ -45,5 +45,5 @@ O projeto foi uma excelente oportunidade de aprendizado coletivo, demonstrando c
 ├── /codigo
 │   └── rastreador_solar.ino   # Código-fonte Arduino
 ├── /docs
-│   └── esquema_circuito.png   # Esquemático do circuito (opcional)
+│   └── esquema_circuito.png   # Esquemático do circuito
 └── README.md
