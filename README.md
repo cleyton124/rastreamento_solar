@@ -37,8 +37,7 @@ O projeto foi uma excelente oportunidade de aprendizado coletivo, demonstrando c
 ---
 
 ## 📷 Demonstração
-*(Adicione aqui imagens ou gifs do projeto em funcionamento, se disponível.)*
-
+![Esquema_Circuito](./Docs/esquema_circuito)
 ---
 
 ## 📂 Estrutura do Projeto
